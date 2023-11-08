@@ -1,0 +1,298 @@
+
+
+* {
+    /* border: 1px solid red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    color: white;
+    background-color: rgba(20, 13, 82, 0.821)
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(18, 15, 45, 0.821);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    font-size: x-large;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 10%;
+    width: 20%;
+    height: 100%;
+    font-size: 18px;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+/* for homepage section */
+.center {
+    z-index: -1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+
+}
+
+/* home page welcome font */
+.welcome {
+    /* display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+}
+
+
+/* about me section */
+.about {
+    background-color:  rgba(3, 9, 43, 1);
+    display: flex;
+    align-content: flex-start;
+    padding-bottom: 20px;
+    font-style: owner;
+    text-align: center;  
+}
+
+/* header for about me */
+.me {
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+}
+
+
+
+.child-frame {
+    background: fixed;
+    background: linear-gradient(rgb(0%, 0%, 0%), rgba(20, 13, 82, 0.821)), url(personalphotos/child.jpg);  
+    background-size: cover;   /* displays background as image */
+    background-position: fixed;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    font-style: owner;  
+    
+}
+
+
+.hobby-frame {
+    background-position: 0 30%;
+    /* background: fixed; */
+    background-image: linear-gradient(rgb(0%, 0%, 0%), rgba(20, 13, 82, 0.821)), url(personalphotos/baritone.jpg);  
+    background-size: cover;   /* displays background as image */
+    display: flex;
+    align-content: flex-start;
+   
+         
+    flex-direction: column;
+    font-style: owner;  
+   
+}
+
+/* .frame-personal {
+    position: relative;
+    top:-100px;
+} */
+
+
+
+
+.grad-frame {
+    background-position: 0 30%;
+    background-image: linear-gradient(rgb(0%, 0%, 0%), rgba(20, 13, 82, 0.821)), url(personalphotos/grad.jpg);  
+    background-size: cover;   /* displays background as image */
+    background-position: fixed;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    font-style: owner;   
+}
+
+
+.post-frame {
+    background-position: 0 30%;
+    background: fixed;
+    background-image: linear-gradient(rgb(0%, 0%, 0%), rgba(20, 13, 82, 0.821)), url(personalphotos/IMG_20231105_211627_916.jpg);  
+    background-size: cover;   /* displays background as image */
+    background-position: fixed;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    font-style: owner;   
+}
+
+
+
+
+
+
+/* text for all images */
+    .mytext {
+        text-align: center;
+        text-shadow: 2px 2px 8px black;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 50px;
+}
+
+.all {
+      display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+}
+
+
+/* Frame is parent for images */
+.frame {
+    align-items: center;
+    display: flex;
+    /* height: 300px;
+    width: 400px;
+    overflow: hidden; */  
+}
+
+.childimg {
+    height: 100vh;
+    width: 39em;
+}
+
+
+/* this is how to resize all of the images and make them look the same size */
+.other-img {
+    height: 100vh;
+    width: 39em;
+    object-fit: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.hobbyimg {
+    object-fit: 200px;
+}
+
+
+
+footer {
+    margin-bottom: 2px;
+}
+
+
+.bottom {
+    background: rgba(41, 36, 77, 0.821);
+    background: fixed;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    font: 0.6em;
+    
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 1px;
+
+    padding-bottom: 25px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb {
+    padding-left: 40px;
+}
+
+.tik {
+    padding-right: 25px;
+}

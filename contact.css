@@ -1,0 +1,28 @@
+.form {
+    align-items: center;
+    padding-left: 100px;
+    height: 100vh
+}
+
+.img {
+    display: flex
+}
+
+
+body {
+    background-color:rgba(20, 13, 82, 0.821);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.touch {
+    text-align: center;
+    
+}
